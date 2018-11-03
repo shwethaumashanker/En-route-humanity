@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>En Route Humanity</title>
-
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-  <!-- nav -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">En Route Humanity</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="#">Logout</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!-- ./nav -->
+<?php include "header.php" ?>
 
   <!-- main -->
-  <center><img src="logo.png" alt="En Route Logo" align="middle" width="200" height="200"></center>
   <main class="container">
     <div class="row">
       <div class="col-md-3">
@@ -112,14 +89,5 @@
   </main>
   <!-- ./main -->
 
-  <!-- footer -->
-  <footer class="container text-center">
-    <ul class="nav nav-pills pull-right">
-      <li>En Route Humanity - Made at VandyHacks V!</li>
-    </ul>
-  </footer>
-  <!-- ./footer -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
+<?php include "footer.php" ?>
+
