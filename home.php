@@ -23,6 +23,7 @@
   <!-- ./nav -->
 
   <!-- main -->
+  <center><img src="logo.png" alt="En Route Logo" align="middle" width="200" height="200"></center>
   <main class="container">
     <div class="row">
       <div class="col-md-3">
